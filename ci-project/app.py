@@ -8,6 +8,11 @@ def add(a, b):
     return a + b
 
 
+def subtract(a, b):
+    """Return the difference a - b."""
+    return a - b
+
+
 if __name__ == '__main__':
     # Simple demo when running directly
     print("add(2, 3) ->", add(2, 3))
